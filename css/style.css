@@ -1,0 +1,96 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+    color:#122111;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.container { max-width: 840px;}
+
+h1, h2, h3 {font-weight: 600;}
+h1 {font-size: 3rem; }
+h2 {font-size: 2rem; }
+h3 {font-size: 1rem; }
+p {font-size: 1rem; }
+.sm {font-size: 0.9rem;}
+h4 {font-size: 1.7rem;}
+h5 {font-size: 1.5rem;}
+
+a {
+  border-bottom: 1px solid #0000004d;
+  transition: .2s;
+  text-decoration: none;
+  color: #3D4148;
+  font-size: 0.8rem;
+}
+a:hover {
+  border-bottom: 1px solid #00000000;
+  transition: .2s;
+  color: #3773a9;
+  text-decoration: none;
+}
+.text-green {
+    color: #044725;
+}
+.btn-success { 
+    background-color: #044725!important;
+    border-color:#044725!important;
+    transition: 2s;
+}
+.btn:hover {
+    background-color: #FDE803!important;
+    border-color:#FDE803!important;
+    transition: 2s;
+}
+.box {
+    position: relative;
+}
+.box::before {
+    content: url(../img/box.svg);
+    position: absolute;
+    left: -43px;
+}
+.line {
+    position: relative;
+}
+.line::before {
+    content: '';
+    position: absolute;
+    bottom: -25px;
+    background: #044725;
+    height: .2rem;
+    width: 3rem;
+    left: 3px;
+}
+/* spring */
+.spring{
+    position: relative;
+}
+.spring::before {
+    content: url(../img/spring.svg);
+    position: absolute;
+    top: 74px;
+}
+/* summer */
+.summer{
+    position: relative;
+}
+.summer::before {
+    content: url(../img/summer.svg);
+    position: absolute;
+    top: 35px;
+}
+/* autumn */
+.autumn{
+    position: relative;
+}
+.autumn::before {
+    content: url(../img/autumn.svg);
+    position: absolute;
+    top: 108px;
+    left: 195px;
+}
+.list1 {
+    position: relative;
+    top: 203px;
+    left: 178px;
+}
